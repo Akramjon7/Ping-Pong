@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: salmon;
+}
+
+.Player1{
+    font-size: 50px;
+}
+.Player2{
+    font-size: 50px;
+}
+.btn1{
+    background-color: lime;
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.btn2{
+    background-color: blue;
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.reset{
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.select{
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
